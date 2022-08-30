@@ -18,5 +18,7 @@ public class SquareCalculator {
     }
 
     private double width;
-
+   public double areaCalc(){
+       return this.width*this.height;
+   }
 }
