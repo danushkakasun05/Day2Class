@@ -14,5 +14,8 @@ public class Circle {
     public double AreaCal(){
         return(this.radius*2*3.14);
     }
-
+    public double circleNew(int radi){
+        this.radius=radi;
+        return this.AreaCal();
+    }
 }

@@ -23,5 +23,11 @@ public class Main {
         rec.setWidth(10);
         System.out.println("Area of Triangle: "+rec.areaCal());
 
+        System.out.println("Square: "+sq.squareNew(12));
+        System.out.println("circle; "+crl.circleNew(7));
+        System.out.println("Triangle; "+tri.triangleNew(12,10));
+        System.out.println("Rectangle: "+rec.rectangleNew(12,10));
+
+
         }
 }

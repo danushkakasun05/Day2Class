@@ -17,6 +17,12 @@ public class Square {
         return (this.sideLenght*this.sideLenght);
 
     }
+    public int squareNew(int side){
+        this.sideLenght = side;
+        return(this.AreaCal());
+
+
+    }
 
 
 
