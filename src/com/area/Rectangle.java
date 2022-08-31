@@ -23,9 +23,9 @@ public class Rectangle {
     public int areaCal(){
         return this.length*this.width;
     }
-    public int rectangleNew(int lenght, int width){
+    public Rectangle(int lenght, int width){
         this.width=width;
         this.length = lenght;
-        return(this.areaCal());
+        //return(this.areaCal());
     }
 }
