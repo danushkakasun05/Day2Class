@@ -2,25 +2,26 @@ package com.area;
 
 public class Main {
     public static void main(String[] args) {
-        SquareCalculator sqcal = new SquareCalculator();
-        sqcal.setHeight(18);
-        sqcal.setWidth(14);
-        //System.out.println("area calculate: "+sqcal.getHeight()*sqcal.getWidth());
-        System.out.println("area of rectangle: "+ sqcal.areaCalc());
-        sqcal.setBase(12);
-        sqcal.setPerdis(15);
-        System.out.println("Trangle area:"+ sqcal.areaTrangle());
-        sqcal.setRadius(7);
-        System.out.println("area of the circle: "+sqcal.areaCircle());
-        sqcal.setSideLength(12);
-        System.out.println("area of the square: "+sqcal.areaSquare());
+        Square sq =new Square();
+        sq.setSideLenght(12);
+        System.out.println("Area of Square: "+sq.AreaCal());
+        System.out.println();
 
-        sqcal.rectangle(12,15);
+        Circle crl =new Circle();
+        crl.setRadius(7);
+        System.out.println("Area of Circle: "+crl.AreaCal());
+        System.out.println();
 
-        sqcal.rectangle(12,13);
-        sqcal.circle(12);
-        sqcal.trangle(12,13);
-        sqcal.square(10);
+        triangle tri = new triangle();
+        tri.setBase(12);
+        tri.setPerH(10);
+        System.out.println("Area of Triangle: "+tri.areaCalc());
+        System.out.println();
 
-}
+        Rectangle rec =new Rectangle();
+        rec.setLength(12);
+        rec.setWidth(10);
+        System.out.println("Area of Triangle: "+rec.areaCal());
+
+        }
 }
