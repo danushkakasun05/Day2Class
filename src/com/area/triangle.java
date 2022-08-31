@@ -19,9 +19,9 @@ public class triangle {
    public double areaCalc(){
         return (this.base*this.perH*0.5);
    }
-   public double triangleNew(int base, int per){
+   public triangle(int base, int per){
         this.base =base;
         this.perH =per;
-        return this.areaCalc();
+       // return this.areaCalc();
    }
 }
